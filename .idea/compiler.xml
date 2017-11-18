@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ylcmsb" />
         <module name="ylcmsw" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ylcmsb" target="1.5" />
       <module name="ylcmsw" target="1.7" />
     </bytecodeTargetLevel>
   </component>
