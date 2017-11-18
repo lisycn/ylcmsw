@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+	
+	<!-- Redis config start -->
+	<bean id="tdRedisService" class="com.tangdi.def.base.redis.TdRedisService">
+		<property name="ip" value="${redis.ip}" />
+		<property name="port" value="${redis.port}" />
+		<property name="maxActive" value="${redis.maxActive}" />
+		<property name="maxIdle" value="${redis.maxIdle}" />
+		<!-- 本参数可选 -->
+		<!-- <property name="password" value="${redis.password}" />  -->
+	</bean>
+	<!-- Redis config end -->
+	
+</beans>
