@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: javassist:javassist:GA:3.18.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javassist/javassist/3.18.2/javassist-3.18.2-GA.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javassist/javassist/3.18.2/javassist-3.18.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javassist/javassist/3.18.2/javassist-3.18.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
